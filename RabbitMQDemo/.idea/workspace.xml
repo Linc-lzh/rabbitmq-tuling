@@ -24,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -59,6 +59,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -100,7 +104,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamPushConsumer">
+  <component name="RunManager" selected="Spring Boot.SCApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -108,13 +112,13 @@
       <module />
       <method />
     </configuration>
-    <configuration name="PublishConfirm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.reliable.PublishConfirm" />
+    <configuration name="PullReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.direct.PullReceiver" />
       <module name="BasicDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.roy.rabbitmq.reliable.*" />
+          <option name="PATTERN" value="com.roy.rabbitmq.direct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamPushConsumer" />
-        <item itemvalue="Application.PublishConfirm" />
         <item itemvalue="Spring Boot.SCApplication" />
         <item itemvalue="Spring Boot.RabbitMQApplication" />
+        <item itemvalue="Application.StreamPushConsumer" />
         <item itemvalue="Application.StreamSender" />
+        <item itemvalue="Application.PullReceiver" />
       </list>
     </recent_temporary>
   </component>
@@ -241,8 +245,7 @@
       <workItem from="1650966316222" duration="594000" />
       <workItem from="1651028103127" duration="10362000" />
       <workItem from="1652591241680" duration="585000" />
-      <workItem from="1685708096713" duration="1230000" />
-      <workItem from="1685710159879" duration="4905000" />
+      <workItem from="1685708096713" duration="1506000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1611379310755</created>
