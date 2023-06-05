@@ -12,16 +12,16 @@ import com.roy.rabbitmq.RabbitMQUtil;
 
 public class ReceiveLogsFanout {
 
-//	private static final String EXCHANGE_NAME = "fanoutExchange";
-	private static final String EXCHANGE_NAME = "mirror.mcaservice";
+	private static final String EXCHANGE_NAME = "fanoutExchange";
+	//private static final String EXCHANGE_NAME = "mirror.mcaservice";
 	
 	public static void main(String[] args) throws Exception {
 		Connection connection = RabbitMQUtil.getConnection();
 		Channel channel = connection.createChannel();
 		
-	    channel.exchangeDeclare(EXCHANGE_NAME, "topic");
-//	    String queueName = channel.queueDeclare().getQueue();
-	    String queueName = "mirror.mcaservice.mcaservice";
+	    channel.exchangeDeclare(EXCHANGE_NAME, "fanout");
+	    String queueName = channel.queueDeclare().getQueue();
+//	    String queueName = "mirror.mcaservice.mcaservice";
 	    channel.queueBind(queueName, EXCHANGE_NAME, "#");
 
 		Consumer myconsumer = new DefaultConsumer(channel) {

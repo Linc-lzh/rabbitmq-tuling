@@ -55,27 +55,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/linc/Documents/code/rabbitmq/RabbitMQDemos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/linc/Documents/code/rabbitmq/RabbitMQDemos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;804efe5cece72599544e0b50367b64e4&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -100,7 +101,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamPushConsumer">
+  <component name="RunManager" selected="Application.EmitLogFanout">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -108,13 +109,13 @@
       <module />
       <method />
     </configuration>
-    <configuration name="PublishConfirm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.reliable.PublishConfirm" />
+    <configuration name="EmitLogFanout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.pubsub.EmitLogFanout" />
       <module name="BasicDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.roy.rabbitmq.reliable.*" />
+          <option name="PATTERN" value="com.roy.rabbitmq.pubsub.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,13 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamPushConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.stream.StreamPushConsumer" />
+    <configuration name="EmitLogHeader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.pubsub.EmitLogHeader" />
       <module name="BasicDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.roy.rabbitmq.stream.*" />
+          <option name="PATTERN" value="com.roy.rabbitmq.pubsub.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +137,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamSender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.stream.StreamSender" />
+    <configuration name="EmitLogTopic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.pubsub.EmitLogTopic" />
       <module name="BasicDemo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.roy.rabbitmq.stream.*" />
+          <option name="PATTERN" value="com.roy.rabbitmq.pubsub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReceiveLogsFanout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.pubsub.ReceiveLogsFanout" />
+      <module name="BasicDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roy.rabbitmq.pubsub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReceiveLogsTopic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.pubsub.ReceiveLogsTopic" />
+      <module name="BasicDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roy.rabbitmq.pubsub.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,32 +188,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RabbitMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SpringBootDemo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.roy.springboot.RabbitMQApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.roy.springboot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SCApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SpringCloudStreamDemo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.roy.SCApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.roy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamPushConsumer" />
-        <item itemvalue="Application.PublishConfirm" />
-        <item itemvalue="Spring Boot.SCApplication" />
-        <item itemvalue="Spring Boot.RabbitMQApplication" />
-        <item itemvalue="Application.StreamSender" />
+        <item itemvalue="Application.EmitLogFanout" />
+        <item itemvalue="Application.ReceiveLogsFanout" />
+        <item itemvalue="Application.EmitLogTopic" />
+        <item itemvalue="Application.ReceiveLogsTopic" />
+        <item itemvalue="Application.EmitLogHeader" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +246,8 @@
       <workItem from="1652591241680" duration="585000" />
       <workItem from="1685708096713" duration="1230000" />
       <workItem from="1685710159879" duration="4905000" />
+      <workItem from="1685881382375" duration="7990000" />
+      <workItem from="1685968108239" duration="383000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1611379310755</created>
@@ -272,6 +277,17 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init project" />
     <option name="LAST_COMMIT_MESSAGE" value="init project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/RabbitMQUtil.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
