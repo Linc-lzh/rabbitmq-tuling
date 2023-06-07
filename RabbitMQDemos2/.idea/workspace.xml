@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="268d6c75-7859-46c7-a529-091b6daf283d" name="Default Changelist" comment="init project">
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/RabbitMQUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/direct/PullReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/direct/PushReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/direct/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/federation/DownStreamConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/federation/UpstreamProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/pubsub/EmitLogDirect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/pubsub/EmitLogFanout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/pubsub/EmitLogHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/pubsub/EmitLogTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/pubsub/ReceiveLogsDirect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/pubsub/ReceiveLogsFanout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/pubsub/ReceiveLogsHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/pubsub/ReceiveLogsTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/reliable/PublishConfirm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/sharding/ShardingConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/sharding/ShardingProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/stream/StreamPushConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/stream/StreamSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/task/NewTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicDemo/src/main/java/com.roy/rabbitmq/task/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/RabbitMQApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/config/DirectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/config/FanoutConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/config/HeaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/config/QuorumConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/config/RabbitmqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/config/StreamConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/config/TopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/config/WorkConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/consumer/DirectReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/producer/ProducerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/swagger/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/java/com/roy/springboot/util/MyConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootDemo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudStreamDemo/src/main/java/com.roy/SCApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudStreamDemo/src/main/java/com.roy/consumer/MessageReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudStreamDemo/src/main/java/com.roy/springcloudstream/SendMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudStreamDemo/src/main/java/com.roy/util/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudStreamDemo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudStreamDemo/src/main/resources/application.properties.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudStreamDemo/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BasicDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringCloudStreamDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudStreamDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1nSM7quwx4r88bTY6lY1RZ8jrAb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\a备课资料\RabbitMQ\RabbitMQDemo\SpringCloudStreamDemo\src\main\resources" />
+      <recent name="E:\a备课资料\RabbitMQ\RabbitMQDemo\SpringCloudStreamDemo\src\main\java" />
+      <recent name="E:\a备课资料\RabbitMQ\RabbitMQDemo\SpringBootDemo\src\main\java\com.roy.springboot" />
+      <recent name="E:\a备课资料\RabbitMQ\RabbitMQDemo\SpringBootDemo\src\main\java" />
+      <recent name="E:\a备课资料\RabbitMQ\RabbitMQDemo\BasicDemo\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.roy.springboot" />
+      <recent name="com.roy.springboot.producer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SCApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PushReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.direct.PushReceiver" />
+      <module name="BasicDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roy.rabbitmq.direct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.direct.Sender" />
+      <module name="BasicDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roy.rabbitmq.direct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShardingConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.sharding.ShardingConsumer" />
+      <module name="BasicDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roy.rabbitmq.sharding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShardingProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.roy.rabbitmq.sharding.ShardingProducer" />
+      <module name="BasicDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roy.rabbitmq.sharding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SCApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloudStreamDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.roy.SCApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SCApplication" />
+        <item itemvalue="Application.ShardingProducer" />
+        <item itemvalue="Application.ShardingConsumer" />
+        <item itemvalue="Application.Sender" />
+        <item itemvalue="Application.PushReceiver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="268d6c75-7859-46c7-a529-091b6daf283d" name="Default Changelist" comment="" />
+      <created>1611378873894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611378873894</updated>
+      <workItem from="1611378877183" duration="743000" />
+      <workItem from="1611379636082" duration="10755000" />
+      <workItem from="1611559240362" duration="4146000" />
+      <workItem from="1611644202353" duration="5309000" />
+      <workItem from="1611716208961" duration="7764000" />
+      <workItem from="1612337406876" duration="919000" />
+      <workItem from="1614072124374" duration="76000" />
+      <workItem from="1650857473136" duration="3049000" />
+      <workItem from="1650870254531" duration="6157000" />
+      <workItem from="1650936418188" duration="8600000" />
+      <workItem from="1650966316222" duration="594000" />
+      <workItem from="1651028103127" duration="10362000" />
+      <workItem from="1652591241680" duration="15108000" />
+      <workItem from="1652704493197" duration="588000" />
+      <workItem from="1652750615560" duration="3887000" />
+      <workItem from="1652774610754" duration="8166000" />
+      <workItem from="1652860573969" duration="17708000" />
+      <workItem from="1652929124227" duration="3447000" />
+      <workItem from="1653017234794" duration="11756000" />
+    </task>
+    <task id="LOCAL-00001" summary="init project">
+      <created>1611379310755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611379310755</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
